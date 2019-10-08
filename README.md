@@ -1,6 +1,6 @@
 # Paper Puppets
 
-*A lab report by John Q. Student*
+A lab report by Tony Liebel
 
 ## In this Report
 
@@ -8,7 +8,11 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 
 ## Part A. Actuating DC motors
 
-**Link to a video of your virbation motor**
+**Link to a video of your vibratio motor**
+
+https://youtu.be/HC76HJxEgAk
+
+In my video - the motor vibrated itself off of the breadboard - but it worked!
 
 ## Part B. Actuating Servo motors
 
@@ -26,6 +30,8 @@ Orange is Data, Red is Power, Brown is Ground
      (pos = 180; pos >= 0; pos -= 1) The first two pos's control the start and stop of the sweep. The third POS is the number of steps that the servo runs through. By changing the third POS value, you can increase the speed. However, if you increase the speed too much, the servo is unable to keep up with the instruction, and will not run through it's full 180 degree sweep.
      
 ## Part C. Integrating input and output
+
+Video! https://youtu.be/54Hau18SbMs
 
 I used this code to get the servo motor mapped to the potentiometer: 
 
@@ -52,9 +58,13 @@ void loop() {
 
 **a. Make a video of your proto puppet.**
 
+https://www.youtube.com/watch?v=FokZo2rjamY&feature=youtu.be
+My Puppet's joints for the arms had too much tape, so it wiggled more than it raised and lowered it's arms.
 
+This also used the code that I used above, so that I could raise and lower "Gimpy's" arms via potentiometer.
 
 ## Part E. Make it your own
 
-**a. Make a video of your final design.**
+Scary eyes & even more twitching speed! Gimpy is coming for you!
+https://github.com/tonyliebel/IDD-Fa19-Lab4/blob/master/00024.MTS
  
